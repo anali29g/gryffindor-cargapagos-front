@@ -60,7 +60,7 @@ class ModuloCarga extends React.Component {
             //Hola
         };
 
-        fetch('https://sigap-modulodecarga.herokuapp.com/upload', sentData)
+        fetch('https://gryffindor-cargapagos-back.herokuapp.com/upload', sentData)
             .then(response => {
                 if (this.state.value === "zip") {
                     response.json()

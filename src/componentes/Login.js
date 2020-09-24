@@ -17,7 +17,7 @@ class Login extends React.Component {
         let usuarioLogin = this.state.usuarioLogin.value;
         let passwordLogin = this.state.passwordLogin.value;
 
-        fetch('https://sigap-modulodecarga.herokuapp.com/login', {
+        fetch('https://gryffindor-cargapagos-back.herokuapp.com/login', {
             method: 'post',
             headers: {
                 'Accept': 'application/json, text/plain, */*',
